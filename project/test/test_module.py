@@ -3,6 +3,10 @@ import pytest
 
 """
 Pytest Fixtures
+    They are used for setting up db connections so that we can use the same db connection for multiple tests
+    and also to avoid creating multiple db connections for each test.
+    They are also used for setting parameters for tests.
+    They are used in the following way:
 
     pytest has xUnit-style of fixtures.
 
